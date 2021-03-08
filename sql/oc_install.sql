@@ -170,7 +170,7 @@ CREATE TABLE IF NOT EXISTS `<DB_PREFIX>ncic_names` (
   `dl_issuer` set('Not Applicable','Government','Military') DEFAULT 'Not Applicable',
   `hair_color` set('Bald','Black','Blonde','Blue','Brown','Gray','Green','Orange','Pink','Purple','Red','Auburn','Sandy','Strawberry','White','Partially Gray') DEFAULT NULL,
   `build` set('Average','Fit','Muscular','Overweight','Skinny','Thin') DEFAULT NULL,
-  `weapon_permit` set('Unobtained','Vaild','Suspended','Expired','Canceled') DEFAULT NULL,
+  `weapon_permit` set('Unobtained','Valid','Suspended','Expired','Canceled') DEFAULT NULL,
   `weapon_permit_type` set('Small Arms','Specialised Weapon','Automatic Weapon','Semi-Automatic','Military Grade') DEFAULT NULL,
   `weapon_permit_Issued_by` set('Ammu-Nation','Government','Military') DEFAULT NULL,
   `blood_type` set('A+','O+','B+','AB+','A-','O-','B-','AB-') DEFAULT NULL,
